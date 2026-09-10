@@ -1,0 +1,41 @@
+﻿@model List<Tumala.Controllers.ExamItem>
+
+@{
+    ViewData["Title"] = "Prefinal Exam";
+}
+
+<div class="container my-4">
+ 
+    <div class="p-4 mb-4 bg-primary text-white rounded shadow-sm text-center">
+        <h1 class="display-5 fw-bold">IT ELECTIVE 2 - PREFINAL EXAM</h1>
+        <p class="fs-5 mb-0">Student: <strong>Tumala Neil</strong> | Section: <strong>BSIT_31E2</strong></p>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    <div class="card-header bg-dark text-white fw-bold">
+                        Question #@item.Number
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text fw-semibold">@item.Question</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            @foreach (var opt in item.Options)
+                            {
+                                var isAnswer = opt == item.Answer;
+                                <li class="list-group-item @(isAnswer ? "list-group-item-success fw-bold" : "")">
+                                    @opt @(isAnswer ? "✓" : "")
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-light text-success fw-bold">
+                        Correct Answer: @item.Answer
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
