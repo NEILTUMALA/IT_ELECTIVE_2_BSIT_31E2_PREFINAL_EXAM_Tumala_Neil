@@ -22,5 +22,17 @@
     ],
     "CorrectAnswer": "B. Database-First",
     "Category": "Relational Data Modeling"
+  },
+  {
+    "Number": 3,
+    "Question": "What is the primary purpose of Entity Framework Core?",
+    "Options": [
+      "A. To create HTML pages automatically",
+      "B. To replace the MVC Controller",
+      "C. To map objects in code to relational database data",
+      "D. To replace the C# compiler"
+    ],
+    "CorrectAnswer": "C. To map objects in code to relational database data",
+    "Category": "Relational Data Modeling"
   }
 ]
