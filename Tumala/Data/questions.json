@@ -202,5 +202,17 @@
     ],
     "CorrectAnswer": "B. To catch and handle exceptions that may occur during execution",
     "Category": "CRUD Operations & SQL"
+  },
+  {
+    "Number": 18,
+    "Question": "Which middleware is commonly used in ASP.NET Core for centralized exception handling?",
+    "Options": [
+      "A. UseDatabase()",
+      "B. UseExceptionHandler()",
+      "C. UseValidationHandler()",
+      "D. UseMvcDatabase()"
+    ],
+    "CorrectAnswer": "B. UseExceptionHandler()",
+    "Category": "CRUD Operations & SQL"
   }
 ]
