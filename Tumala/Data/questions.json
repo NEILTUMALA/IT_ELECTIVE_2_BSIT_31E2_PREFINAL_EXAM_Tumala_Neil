@@ -10,5 +10,17 @@
     ],
     "CorrectAnswer": "C. It allows data to persist after the application stops",
     "Category": "Relational Data Modeling"
+  },
+  {
+    "Number": 2,
+    "Question": "Which approach is being used when an existing database is used to generate EF Core entity classes?",
+    "Options": [
+      "A. Code-First",
+      "B. Database-First",
+      "C. Model-First",
+      "D. Controller-First"
+    ],
+    "CorrectAnswer": "B. Database-First",
+    "Category": "Relational Data Modeling"
   }
 ]
