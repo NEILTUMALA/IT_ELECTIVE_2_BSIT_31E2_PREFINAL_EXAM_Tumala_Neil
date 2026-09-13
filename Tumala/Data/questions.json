@@ -106,5 +106,17 @@
     ],
     "CorrectAnswer": "B. It represents a relationship to another entity",
     "Category": "Conceptual Data Architecture"
+  },
+  {
+    "Number": 10,
+    "Question": "What does .Include() generally allow EF Core to do?",
+    "Options": [
+      "A. Delete the Section table",
+      "B. Load related Section data together with Students",
+      "C. Create a new Student",
+      "D. Validate Student input"
+    ],
+    "CorrectAnswer": "B. Load related Section data together with Students",
+    "Category": "Conceptual Data Architecture"
   }
 ]
