@@ -226,5 +226,18 @@
     ],
     "CorrectAnswer": "B. Display a Not Found (404) response/page",
     "Category": "CRUD Operations & SQL"
+  },
+  {
+    "Number": 20,
+    "Question": "A student already belongs to Section A for a particular subject. The application attempts to assign the same student to Section A again. What is the primary concern?",
+    "Options": [
+      "A. Data integrity",
+      "B. HTML formatting",
+      "C. CSS inheritance",
+      "D. Razor syntax"
+    ],
+    "CorrectAnswer": "A. Data integrity",
+    "Category": "CRUD Operations & SQL"
   }
+]
 ]
