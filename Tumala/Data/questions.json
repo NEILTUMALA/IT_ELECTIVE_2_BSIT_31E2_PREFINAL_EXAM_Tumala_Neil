@@ -1,1 +1,14 @@
-﻿[]
+﻿[
+  {
+    "Number": 1,
+    "Question": "What is the main problem solved by using a database instead of an in-memory collection?",
+    "Options": [
+      "A. It makes C# code shorter",
+      "B. It prevents the application from restarting",
+      "C. It allows data to persist after the application stops",
+      "D. It removes the need for MVC"
+    ],
+    "CorrectAnswer": "C. It allows data to persist after the application stops",
+    "Category": "Relational Data Modeling"
+  }
+]
