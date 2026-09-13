@@ -166,5 +166,17 @@
     ],
     "CorrectAnswer": "A. Client-side validation can be bypassed",
     "Category": "Data Normalization & Integrity"
+  },
+  {
+    "Number": 15,
+    "Question": "A school requires every student to have a unique Student Number. Which rule best represents this requirement?",
+    "Options": [
+      "A. Student Number should always be nullable",
+      "B. Student Number should be unique",
+      "C. Student Number should always be the same",
+      "D. Student Number should contain only spaces"
+    ],
+    "CorrectAnswer": "B. Student Number should be unique",
+    "Category": "Data Normalization & Integrity"
   }
 ]
